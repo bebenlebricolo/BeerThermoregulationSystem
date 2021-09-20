@@ -1,0 +1,9 @@
+[submodule "BTS-MainBoard-Control"]
+	path = BTS-MainBoard-Control
+	url = git@github.com:bebenlebricolo/BTS-MainBoard-Control.git
+[submodule "BTS-MainBoard-Power"]
+	path = BTS-MainBoard-Power
+	url = git@github.com:bebenlebricolo/BTS-MainBoard-Power.git
+[submodule "BTS-LogicBoard"]
+	path = BTS-LogicBoard
+	url = git@github.com:bebenlebricolo/BTS-LogicBoard.git
