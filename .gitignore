@@ -1,0 +1,4 @@
+# Don't take gcode files into account as they vary from a printer to the other
+*.gcode
+*.vs
+*.vscode
