@@ -7,3 +7,6 @@
 [submodule "BTS-LogicBoard"]
 	path = BTS-LogicBoard
 	url = git@github.com:bebenlebricolo/BTS-LogicBoard.git
+[submodule "Firmware/AvrAsyncCore"]
+	path = Firmware/AvrAsyncCore
+	url = git@github.com:bebenlebricolo/AvrAsyncCore.git
