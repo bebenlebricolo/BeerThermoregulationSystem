@@ -1,3 +1,4 @@
+#include <string.h>
 #include <Arduino.h>
 #include "maths.h"
 
@@ -62,17 +63,19 @@ void setup() {
 
   // Output pins
   pinMode(HIP_HEN_PWM_PIN, OUTPUT);  // OC4A -> Will generate a PWM which goes to HEN pin of HIP4080A driver
+  DDRC |= (1 << PC7);
+  PORTC &= ~(1 << PC7); // No pullup on PC7
   pinMode(HIP_DIS_PIN, OUTPUT);      // PE6 -> Actively disables the HUP4080a driver (disables at "high" state)
   pinMode(FAN_TRIGGER, OUTPUT);      // PD7 -> Controls power board cooling fans
   pinMode(IN_POS_PIN, OUTPUT);       // PB4 -> Used as IN+ port of HIP4080A driver
   pinMode(IN_NEG_PIN, OUTPUT);       // PB5 -> Used as IN- port of HIP4080A driver
-
   // Default values for output ports ; disables everything before starting
   digitalWrite(HIP_DIS_PIN, 1U);
   digitalWrite(FAN_TRIGGER, 0U);
   digitalWrite(IN_POS_PIN, 0U);
   digitalWrite(IN_NEG_PIN, 0U);
 
+  Serial.begin(9600);
 
   // Configure PLL
   PLLCSR = (1 << PINDIV) | (1 << PLLE); // Enable PLL and use a prescaller of 2 as our input oscillator clocks at 16 MHZ
@@ -84,20 +87,29 @@ void setup() {
   // 100,000,000 / 315 = 317,460 iterations
   waste_cycles(317460UL);
 
+  while ((PLLCSR & (1 << PLOCK)) == 0)
+  {
+    // Wait for PLL to lock
+  }
+
+  Serial.println("Configuring timer 4");
+
   // Setup Timer4 with PLL and
   TCCR4A = (1 << COM4A1); // COM4A1 set : OC4A pin connected (Cleared on compare match)
   TCCR4B = (1 << CS40); // Prescaler is equal to 1 ; timer will go at full speed
-  TCCR4D &= ~((1 << WGM41) | (1 << WGM40)); // Fast PWM mode
+  TCCR4D = 0;
+  //TCCR4D &= ~((1 << WGM41) | (1 << WGM40)); // Fast PWM mode
   TCNT4 = 0;
   TC4H = 0;
   OCR4A = 0;   // Output compare is set to 0, so that output is always low even if timer is running
   OCR4C = 63U; // Gives a PWM at 1MHz with 64 resolution steps for timer4
 }
 
+static char msg[10U] = {0};
+
 void loop() {
   // put your main code here, to run repeatedly:
   int pot = analogRead(DUTY_CYCLE_POT_PIN);
-  uint16_t mapped_pot_value = map_pot(uint16_t(pot));
 
   bool rst_switch_on = (bool) digitalRead(RESET_SWITCH_PIN);
   bool pol_switch_on = (bool) digitalRead(POLARITY_SWITCH_PIN);
@@ -134,6 +146,10 @@ void loop() {
     }
     else
     {
+      uint16_t mapped_pot_value = map_pot(uint16_t(pot));
+      sprintf(msg, "Pot val : %d", mapped_pot_value);
+      Serial.println(msg);
+
       // Only update timer's output frequency if potentiometer reading varied in a meaningfull way
       if (abs_difference(&last_pot_value, &mapped_pot_value) >= POT_MIN_DIFF_THRESHOLD)
       {
