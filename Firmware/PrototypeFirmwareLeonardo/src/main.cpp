@@ -90,8 +90,6 @@ void setup() {
   OCR4C = TIMER4_TOP_VALUE; // Gives a PWM at 1MHz with 16 resolution steps for timer4
 }
 
-static char msg[20U] = {0};
-
 void loop() {
   // put your main code here, to run repeatedly:
   uint16_t pot = (uint16_t) analogRead(DUTY_CYCLE_POT_PIN);
@@ -102,7 +100,6 @@ void loop() {
   // Check if a reset is ongoing
   if (!rst_switch_on)
   {
-    digitalWrite(HIP_DIS_PIN, 0U);  // Re-enables hip driver
     digitalWrite(FAN_TRIGGER, 1U);  // Activate cooling fans all at once
 
     // Check polarity to know if we are cooling or heating
@@ -129,6 +126,7 @@ void loop() {
     {
       //Serial.println("POT val too big");
       stop_timer4();
+      digitalWrite(HIP_DIS_PIN, 0U);
       digitalWrite(HIP_HEN_PWM_PIN, HIGH); // overrides PWM
     }
     else
@@ -145,6 +143,7 @@ void loop() {
         // Program Timer4 to generate PWM with the right frequency
         start_timer4(); // no effect is timer is already started
         OCR4A = (uint8_t) mapped_pot_value;
+        digitalWrite(HIP_DIS_PIN, 0U);
       }
     }
 
