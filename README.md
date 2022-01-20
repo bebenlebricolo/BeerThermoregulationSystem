@@ -19,10 +19,10 @@ This project aims to provide a complete electo-mechanical design whose role is t
 # Subprojects/Components
 It comes with 3 main hardware components (as opposed to 4 at the early days of the design) :
 * Main heat exchanger body with 3D Cad design and 3D printed enclosures.
-* [BTS-LogicBoard](BTS-LogicBoard/Readme.md) : electronic logic board whose role is to drive the power board with appropriate signals. It is full-featured and I designed it in a way that allows further improvements and extensions.
-  * ![BTS-LogicBoard rev 0.3.0](BTS-LogicBoard/Documentation/Screenshots/LogicBoard_Avr.V0.3.0.png)
-* [BTS-MainBoard-Power](BTS-MainBoard-Power/Readme.md) : this electronic board drives the 8 Peltier modules used in this project and effectively acts as the main temperature regulation actuator. It was designed to work at relatively high frequencies (> 1MHz ) in order to reduce the overall board size and components price.
-  * ![BTS-MainBoard-Power rev 0.2.0](BTS-MainBoard-Power/Documentation/Screenshots/BTS-MainBoard-Power-V0.2.0-front.png)
+* [BTS-LogicBoard](https://github.com/bebenlebricolo/BTS-LogicBoard/blob/main/Readme.md) : electronic logic board whose role is to drive the power board with appropriate signals. It is full-featured and I designed it in a way that allows further improvements and extensions.
+  * ![BTS-LogicBoard rev 0.3.0](https://github.com/bebenlebricolo/BTS-LogicBoard/blob/main/Documentation/Screenshots/LogicBoard_Avr.V0.3.0.png)
+* [BTS-MainBoard-Power](https://github.com/bebenlebricolo/BTS-MainBoard-Power/blob/main/Readme.md) : this electronic board drives the 8 Peltier modules used in this project and effectively acts as the main temperature regulation actuator. It was designed to work at relatively high frequencies (> 1MHz ) in order to reduce the overall board size and components price.
+  * ![BTS-MainBoard-Power rev 0.2.0](https://github.com/bebenlebricolo/BTS-MainBoard-Power/blob/main/Documentation/Screenshots/BTS-MainBoard-Power-V0.2.0-front.png)
 
 # Power specs and power supply requirements
 Each Peltier module (12v, 40x40 mm TEC12706, [manufacturer datasheet](https://docs.rs-online.com/aeb0/A700000007895121.pdf)) is able to draw 6.4Amps and move 57W each, which is the absolute maximum ratings for these devices ; in reality their efficiency is much lower, which explains the numbers !
