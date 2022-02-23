@@ -2,3 +2,5 @@
 *.gcode
 *.vs
 *.vscode
+[Bb]uild*/
+

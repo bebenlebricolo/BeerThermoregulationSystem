@@ -1,2 +1,0 @@
-/usr/bin/gcc-ar qcs libadc_driver.a CMakeFiles/adc_driver.dir/src/adc_stack.c.obj CMakeFiles/adc_driver.dir/src/adc.c.obj
-true

@@ -1,2 +1,0 @@
-/usr/bin/gcc-ar qcs libtimer_generic_driver.a CMakeFiles/timer_generic_driver.dir/src/timer_generic.c.obj
-true

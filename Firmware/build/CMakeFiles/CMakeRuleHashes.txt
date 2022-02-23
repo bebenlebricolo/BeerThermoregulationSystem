@@ -1,4 +1,0 @@
-# Hashes of file build rules.
-154e049ec701db021284814d65e7fc9b App/CMakeFiles/hex
-39dac95c735cd1a9f117cb4963041f71 App/CMakeFiles/size
-8db2a676ce1329c987ee753a2725c019 App/CMakeFiles/strip

@@ -1,2 +1,0 @@
-/usr/bin/gcc-ar qcs libmemutils.a CMakeFiles/memutils.dir/src/memutils.c.obj
-true
