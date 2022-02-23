@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Firmware Dev",
+            "includePath": [
+                "${workspaceFolder}/App/inc",
+                "${workspaceFolder}/Sensors/Thermistor/inc",
+                "${workspaceFolder}/AvrAsyncCore/Drivers/Adc/inc",
+                "${workspaceFolder}/AvrAsyncCore/Drivers/I2c/inc",
+                "${workspaceFolder}/AvrAsyncCore/Drivers/Io/inc",
+                "${workspaceFolder}/AvrAsyncCore/Drivers/Lcd_screen/inc",
+                "${workspaceFolder}/AvrAsyncCore/Drivers/Timers/Timer_8_bit/inc",
+                "${workspaceFolder}/AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/inc",
+                "${workspaceFolder}/AvrAsyncCore/Drivers/Timers/Timer_generic/inc",
+                "${workspaceFolder}/AvrAsyncCore/Drivers/Timers/Timer_16_bit/inc",
+                "${workspaceFolder}/AvrAsyncCore/Modules/Pwm/inc",
+                "${workspaceFolder}/AvrAsyncCore/Modules/Timebase/inc",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "__AVR_ATmega328P__",
+                "FCPU=16000000"
+            ],
+            "compilerPath": "/usr/bin/avr-gcc",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

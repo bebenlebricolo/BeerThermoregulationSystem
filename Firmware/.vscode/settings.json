@@ -1,0 +1,5 @@
+{
+    "cmake.loggingLevel": "debug",
+    "cmake.revealLog":"always",
+    "cmake.enableTraceLogging": true
+}
