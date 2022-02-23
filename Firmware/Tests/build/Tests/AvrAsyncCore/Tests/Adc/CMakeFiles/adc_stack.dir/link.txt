@@ -1,0 +1,2 @@
+/usr/bin/ar qc libadc_stack.a CMakeFiles/adc_stack.dir/home/groben/Documents/Repos/LabBenchPowerSupply/Firmware/AvrAsyncCore/Drivers/Adc/src/adc_stack.c.o
+/usr/bin/ranlib libadc_stack.a

@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qcs libtimer_8_bit_async_driver.a CMakeFiles/timer_8_bit_async_driver.dir/src/timer_8_bit_async.c.obj
+true

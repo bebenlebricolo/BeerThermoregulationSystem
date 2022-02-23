@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qcs libthermistor_driver.a CMakeFiles/thermistor_driver.dir/src/thermistor.c.obj
+true

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtimer_generic_driver.a CMakeFiles/timer_generic_driver.dir/home/groben/Documents/Repos/LabBenchPowerSupply/Firmware/AvrAsyncCore/Drivers/Timers/Timer_generic/src/timer_generic.c.o
+/usr/bin/ranlib libtimer_generic_driver.a

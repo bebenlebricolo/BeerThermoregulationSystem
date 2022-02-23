@@ -1,0 +1,2 @@
+/usr/bin/ar qc libthermistor_driver.a CMakeFiles/thermistor_driver.dir/home/groben/Documents/Repos/LabBenchPowerSupply/Firmware/Sensors/Thermistor/src/thermistor.c.o
+/usr/bin/ranlib libthermistor_driver.a

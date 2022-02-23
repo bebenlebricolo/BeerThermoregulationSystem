@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qcs libi2c_driver.a CMakeFiles/i2c_driver.dir/src/i2c.c.obj
+true

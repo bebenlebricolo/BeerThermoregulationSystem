@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtimer_8_bit_async_driver.a CMakeFiles/timer_8_bit_async_driver.dir/home/groben/Documents/Repos/LabBenchPowerSupply/Firmware/AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/src/timer_8_bit_async.c.o
+/usr/bin/ranlib libtimer_8_bit_async_driver.a

@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qcs libio_driver.a CMakeFiles/io_driver.dir/src/io.c.obj
+true

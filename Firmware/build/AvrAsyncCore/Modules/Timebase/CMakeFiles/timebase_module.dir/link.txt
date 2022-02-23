@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qcs libtimebase_module.a CMakeFiles/timebase_module.dir/src/timebase.c.obj
+true

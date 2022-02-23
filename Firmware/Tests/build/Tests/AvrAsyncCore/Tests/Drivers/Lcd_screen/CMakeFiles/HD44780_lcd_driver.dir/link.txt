@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHD44780_lcd_driver.a CMakeFiles/HD44780_lcd_driver.dir/home/groben/Documents/Repos/LabBenchPowerSupply/Firmware/AvrAsyncCore/Drivers/Lcd_screen/src/HD44780_lcd.c.o
+/usr/bin/ranlib libHD44780_lcd_driver.a

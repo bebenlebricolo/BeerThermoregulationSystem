@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "AvrAsyncCore/Drivers/Lcd_screen",
+		"source" : "AvrAsyncCore/Drivers/Lcd_screen"
+	}
+}

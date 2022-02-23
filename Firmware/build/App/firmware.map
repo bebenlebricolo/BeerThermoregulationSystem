@@ -1,0 +1,1305 @@
+Membre d'archive inclu pour satisfaire la référence par fichier (symbole)
+
+../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+                              CMakeFiles/firmware.dir/src/driver_setup.c.obj (adc_config_hal_get_default)
+../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj)
+                              ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj) (adc_stack_reset)
+../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+                              CMakeFiles/firmware.dir/src/driver_setup.c.obj (timer_8_bit_get_default_config)
+../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+                              CMakeFiles/firmware.dir/src/driver_setup.c.obj (timer_8_bit_async_get_default_config)
+../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+                              CMakeFiles/firmware.dir/src/driver_setup.c.obj (timer_16_bit_get_default_config)
+../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+                              CMakeFiles/firmware.dir/src/driver_setup.c.obj (i2c_get_default_config)
+../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+                              CMakeFiles/firmware.dir/src/module_setup.c.obj (timebase_init)
+../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                              CMakeFiles/firmware.dir/src/driver_setup.c.obj (hd44780_lcd_get_default_config)
+../AvrAsyncCore/Drivers/Timers/Timer_generic/libtimer_generic_driver.a(timer_generic.c.obj)
+                              ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj) (timer_generic_compute_parameters)
+/usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodqi4.o)
+                              CMakeFiles/firmware.dir/src/main.c.obj (__udivmodqi4)
+/usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_divmodhi4.o)
+                              ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj) (__divmodhi4)
+/usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodsi4.o)
+                              ../AvrAsyncCore/Drivers/Timers/Timer_generic/libtimer_generic_driver.a(timer_generic.c.obj) (__udivmodsi4)
+/usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o (exit)
+/usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_tablejump2.o)
+                              CMakeFiles/firmware.dir/src/main.c.obj (__tablejump2__)
+/usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_copy_data.o)
+                              CMakeFiles/firmware.dir/src/main.c.obj (__do_copy_data)
+/usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_clear_bss.o)
+                              CMakeFiles/firmware.dir/src/main.c.obj (__do_clear_bss)
+/usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_umulhisi3.o)
+                              ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj) (__umulhisi3)
+/usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodhi4.o)
+                              /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_divmodhi4.o) (__udivmodhi4)
+/usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(memset.o)
+                              CMakeFiles/firmware.dir/src/main.c.obj (memset)
+/usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+                              CMakeFiles/firmware.dir/src/main.c.obj (strnlen)
+/usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+                              CMakeFiles/firmware.dir/src/main.c.obj (__itoa_ncheck)
+/usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+                              /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(itoa_ncheck.o) (__utoa_common)
+/usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(strrev.o)
+                              /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o) (strrev)
+
+Sections d'entrée éliminées
+
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .text          0x0000000000000000        0x0 CMakeFiles/firmware.dir/src/main.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/firmware.dir/src/main.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/firmware.dir/src/main.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/firmware.dir/src/driver_setup.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/firmware.dir/src/driver_setup.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/firmware.dir/src/driver_setup.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/firmware.dir/src/module_setup.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/firmware.dir/src/module_setup.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/firmware.dir/src/module_setup.c.obj
+ .text          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .data          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .bss           0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .text.adc_handle_copy
+                0x0000000000000000       0x1e ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .text.adc_handle_reset
+                0x0000000000000000       0x22 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .text.adc_config_hal_reset
+                0x0000000000000000       0x22 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .text.adc_base_deinit
+                0x0000000000000000       0x4a ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .text.adc_stop
+                0x0000000000000000       0x24 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .text.adc_unregister_channel
+                0x0000000000000000       0x16 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .text.adc_process
+                0x0000000000000000       0x22 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .text.adc_read_millivolt
+                0x0000000000000000       0xb6 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .text          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj)
+ .data          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj)
+ .bss           0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj)
+ .text.adc_channel_pair_copy
+                0x0000000000000000       0x22 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj)
+ .text.adc_stack_unregister_channel
+                0x0000000000000000       0xe8 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj)
+ .text          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .data          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .bss           0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_prescaler_to_value
+                0x0000000000000000       0x4a ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_set_force_compare_config
+                0x0000000000000000       0x5a ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_get_force_compare_config
+                0x0000000000000000       0x46 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_set_interrupt_config
+                0x0000000000000000       0x74 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_get_interrupt_config
+                0x0000000000000000       0x4e ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_set_prescaler
+                0x0000000000000000       0x2c ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_get_prescaler
+                0x0000000000000000       0x34 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_set_compare_match_A
+                0x0000000000000000       0x38 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_get_compare_match_A
+                0x0000000000000000       0x3e ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_set_compare_match_B
+                0x0000000000000000       0x38 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_get_compare_match_B
+                0x0000000000000000       0x40 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_set_waveform_generation
+                0x0000000000000000       0x42 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_get_waveform_generation
+                0x0000000000000000       0x4e ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_set_counter_value
+                0x0000000000000000       0x26 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_get_counter_value
+                0x0000000000000000       0x32 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_set_ocra_register_value
+                0x0000000000000000       0x26 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_get_ocra_register_value
+                0x0000000000000000       0x32 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_set_ocrb_register_value
+                0x0000000000000000       0x26 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_get_ocrb_register_value
+                0x0000000000000000       0x32 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_deinit
+                0x0000000000000000       0x5e ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .data          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .bss           0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_prescaler_to_value
+                0x0000000000000000       0x3a ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_set_force_compare_config
+                0x0000000000000000       0x64 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_get_force_compare_config
+                0x0000000000000000       0x50 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_set_interrupt_config
+                0x0000000000000000       0x74 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_get_interrupt_config
+                0x0000000000000000       0x4e ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_set_prescaler
+                0x0000000000000000       0x36 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_get_prescaler
+                0x0000000000000000       0x3e ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_set_compare_match_A
+                0x0000000000000000       0x42 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_get_compare_match_A
+                0x0000000000000000       0x48 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_set_compare_match_B
+                0x0000000000000000       0x42 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_get_compare_match_B
+                0x0000000000000000       0x4a ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_set_waveform_generation
+                0x0000000000000000       0x4c ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_get_waveform_generation
+                0x0000000000000000       0x58 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_set_counter_value
+                0x0000000000000000       0x30 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_get_counter_value
+                0x0000000000000000       0x3c ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_set_ocra_register_value
+                0x0000000000000000       0x30 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_get_ocra_register_value
+                0x0000000000000000       0x3c ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_set_ocrb_register_value
+                0x0000000000000000       0x30 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_get_ocrb_register_value
+                0x0000000000000000       0x3c ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_deinit
+                0x0000000000000000       0x5e ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .data          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .bss           0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_prescaler_to_value
+                0x0000000000000000       0x4a ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_set_force_compare_config
+                0x0000000000000000       0x5a ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_get_force_compare_config
+                0x0000000000000000       0x46 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_set_interrupt_config
+                0x0000000000000000       0x8e ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_get_interrupt_config
+                0x0000000000000000       0x58 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_set_prescaler
+                0x0000000000000000       0x2c ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_get_prescaler
+                0x0000000000000000       0x34 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_set_compare_match_A
+                0x0000000000000000       0x38 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_get_compare_match_A
+                0x0000000000000000       0x3e ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_set_compare_match_B
+                0x0000000000000000       0x38 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_get_compare_match_B
+                0x0000000000000000       0x40 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_set_waveform_generation
+                0x0000000000000000       0x44 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_set_input_compare_noise_canceler
+                0x0000000000000000       0x32 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_get_input_compare_noise_canceler
+                0x0000000000000000       0x38 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_set_input_compare_edge_select
+                0x0000000000000000       0x38 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_get_input_compare_edge_select
+                0x0000000000000000       0x3c ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_get_waveform_generation
+                0x0000000000000000       0x4e ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_set_counter_value
+                0x0000000000000000       0x3e ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_get_counter_value
+                0x0000000000000000       0x46 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_get_input_capture_value
+                0x0000000000000000        0x4 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_set_ocra_register_value
+                0x0000000000000000       0x3e ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_get_ocra_register_value
+                0x0000000000000000       0x46 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_set_ocrb_register_value
+                0x0000000000000000       0x3e ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_get_ocrb_register_value
+                0x0000000000000000       0x46 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_deinit
+                0x0000000000000000       0x5e ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .data          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .bss           0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_get_handle
+                0x0000000000000000       0x5c ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_set_slave_mode
+                0x0000000000000000       0x3a ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_set_slave_address
+                0x0000000000000000       0x3e ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_get_slave_address
+                0x0000000000000000       0x44 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_set_slave_address_mask
+                0x0000000000000000       0x3e ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_get_slave_address_mask
+                0x0000000000000000       0x44 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_set_prescaler
+                0x0000000000000000       0x3c ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_get_prescaler
+                0x0000000000000000       0x40 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_set_baudrate
+                0x0000000000000000       0x2e ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_get_baudrate
+                0x0000000000000000       0x3e ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_set_general_call_enabled
+                0x0000000000000000       0x3a ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_get_general_call_enabled
+                0x0000000000000000       0x40 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_set_interrupt_mode
+                0x0000000000000000       0x3a ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_get_interrupt_mode
+                0x0000000000000000       0x40 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_disable
+                0x0000000000000000       0x30 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_slave_set_data_handler
+                0x0000000000000000       0x1c ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_slave_set_transmission_over_callback
+                0x0000000000000000       0x1c ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_deinit
+                0x0000000000000000       0x9a ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_read
+                0x0000000000000000       0xb2 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_is_master_buffer_locked
+                0x0000000000000000       0x10 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text          0x0000000000000000        0x0 ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+ .data          0x0000000000000000        0x0 ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+ .bss           0x0000000000000000        0x0 ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+ .text.timebase_compute_timer_parameters
+                0x0000000000000000      0x132 ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+ .text.timebase_deinit
+                0x0000000000000000       0x34 ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+ .text.timebase_is_initialised
+                0x0000000000000000       0x26 ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+ .text          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .data          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .bss           0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.hd44780_lcd_driver_reset
+                0x0000000000000000       0x28 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.hd44780_lcd_get_last_error
+                0x0000000000000000        0x6 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.hd44780_lcd_clear
+                0x0000000000000000       0x2e ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.hd44780_lcd_home
+                0x0000000000000000       0x2e ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.hd44780_lcd_confgure_display
+                0x0000000000000000       0x62 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.hd44780_lcd_set_backlight
+                0x0000000000000000       0x38 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.hd44780_lcd_set_entry_mode
+                0x0000000000000000       0x38 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.hd44780_lcd_move_relative
+                0x0000000000000000       0x38 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.hd44780_lcd_shift_display
+                0x0000000000000000       0x38 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.internal_command_home
+                0x0000000000000000       0x20 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.internal_command_move_relative
+                0x0000000000000000       0x40 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.internal_command_shift_display
+                0x0000000000000000       0x3a ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.internal_command_set_backlight
+                0x0000000000000000       0x74 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Timers/Timer_generic/libtimer_generic_driver.a(timer_generic.c.obj)
+ .data          0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Timers/Timer_generic/libtimer_generic_driver.a(timer_generic.c.obj)
+ .bss           0x0000000000000000        0x0 ../AvrAsyncCore/Drivers/Timers/Timer_generic/libtimer_generic_driver.a(timer_generic.c.obj)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x0000000000000000       0x28 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_tablejump2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_tablejump2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_tablejump2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x0000000000000000       0x1e /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_umulhisi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x0000000000000000       0x28 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(memset.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(memset.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(memset.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(strrev.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(strrev.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(strrev.o)
+
+Configuration mémoire
+
+Nom              Origine            Longueur           Attributs
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Script de l'éditeurs de liens and table de projection mémoire
+
+Adresse de la section .data initialisé à 0x800100
+LOAD /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o
+LOAD CMakeFiles/firmware.dir/src/main.c.obj
+LOAD CMakeFiles/firmware.dir/src/driver_setup.c.obj
+LOAD CMakeFiles/firmware.dir/src/module_setup.c.obj
+LOAD ../AvrAsyncCore/Drivers/Adc/libadc_driver.a
+LOAD ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a
+LOAD ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a
+LOAD ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a
+LOAD ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a
+LOAD ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a
+LOAD ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a
+LOAD ../AvrAsyncCore/Utils/libmemutils.a
+LOAD ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a
+LOAD ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a
+LOAD ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a
+LOAD ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a
+LOAD ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a
+LOAD ../AvrAsyncCore/Drivers/Timers/Timer_generic/libtimer_generic_driver.a
+START GROUP
+LOAD /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                0x0000000000000400                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x2e08
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000000000000068                . = ALIGN (0x2)
+                0x0000000000000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000068        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000068                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+                0x0000000000000068                . = ALIGN (0x2)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000068                __ctors_start = .
+ *(.ctors)
+                0x0000000000000068                __ctors_end = .
+                0x0000000000000068                __dtors_start = .
+ *(.dtors)
+                0x0000000000000068                __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000068        0x0 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000068                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000068        0xc /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000074       0x16 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000074                __do_copy_data
+ .init4         0x000000000000008a       0x10 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_clear_bss.o)
+                0x000000000000008a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000000000009a        0x6 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000000a0        0x2 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000000000a0                __vector_22
+                0x00000000000000a0                __vector_1
+                0x00000000000000a0                __vector_12
+                0x00000000000000a0                __bad_interrupt
+                0x00000000000000a0                __vector_6
+                0x00000000000000a0                __vector_3
+                0x00000000000000a0                __vector_23
+                0x00000000000000a0                __vector_25
+                0x00000000000000a0                __vector_11
+                0x00000000000000a0                __vector_13
+                0x00000000000000a0                __vector_17
+                0x00000000000000a0                __vector_19
+                0x00000000000000a0                __vector_5
+                0x00000000000000a0                __vector_4
+                0x00000000000000a0                __vector_9
+                0x00000000000000a0                __vector_2
+                0x00000000000000a0                __vector_15
+                0x00000000000000a0                __vector_8
+                0x00000000000000a0                __vector_14
+                0x00000000000000a0                __vector_10
+                0x00000000000000a0                __vector_16
+                0x00000000000000a0                __vector_18
+                0x00000000000000a0                __vector_20
+                0x00000000000000a2                . = ALIGN (0x2)
+ *(.text.*)
+ .text.__vector_21
+                0x00000000000000a2       0x46 CMakeFiles/firmware.dir/src/main.c.obj
+                0x00000000000000a2                __vector_21
+ .text.__vector_7
+                0x00000000000000e8       0x4a CMakeFiles/firmware.dir/src/main.c.obj
+                0x00000000000000e8                __vector_7
+ .text.startup.main
+                0x0000000000000132      0x19e CMakeFiles/firmware.dir/src/main.c.obj
+                0x0000000000000132                main
+ .text.driver_init_adc
+                0x00000000000002d0       0x50 CMakeFiles/firmware.dir/src/driver_setup.c.obj
+                0x00000000000002d0                driver_init_adc
+ .text.driver_init_timer_0
+                0x0000000000000320       0x9a CMakeFiles/firmware.dir/src/driver_setup.c.obj
+                0x0000000000000320                driver_init_timer_0
+ .text.driver_init_timer_1
+                0x00000000000003ba       0xd6 CMakeFiles/firmware.dir/src/driver_setup.c.obj
+                0x00000000000003ba                driver_init_timer_1
+ .text.driver_init_timer_2
+                0x0000000000000490       0xa2 CMakeFiles/firmware.dir/src/driver_setup.c.obj
+                0x0000000000000490                driver_init_timer_2
+ .text.driver_init_i2c
+                0x0000000000000532       0x9e CMakeFiles/firmware.dir/src/driver_setup.c.obj
+                0x0000000000000532                driver_init_i2c
+ .text.driver_init_lcd
+                0x00000000000005d0       0x58 CMakeFiles/firmware.dir/src/driver_setup.c.obj
+                0x00000000000005d0                driver_init_lcd
+ .text.module_init_timebase
+                0x0000000000000628       0x62 CMakeFiles/firmware.dir/src/module_setup.c.obj
+                0x0000000000000628                module_init_timebase
+ .text.isr_helper_extract_data_from_adc_regs
+                0x000000000000068a       0x78 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .text.adc_config_hal_copy
+                0x0000000000000702       0x1e ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+                0x0000000000000702                adc_config_hal_copy
+ .text.adc_config_hal_get_default
+                0x0000000000000720       0x1e ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+                0x0000000000000720                adc_config_hal_get_default
+ .text.adc_base_init
+                0x000000000000073e       0xb0 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+                0x000000000000073e                adc_base_init
+ .text.adc_start
+                0x00000000000007ee       0x1e ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+                0x00000000000007ee                adc_start
+ .text.adc_register_channel
+                0x000000000000080c       0x14 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+                0x000000000000080c                adc_register_channel
+ .text.adc_read_raw
+                0x0000000000000820       0x4e ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+                0x0000000000000820                adc_read_raw
+ .text.adc_isr_handler
+                0x000000000000086e       0x12 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+                0x000000000000086e                adc_isr_handler
+ .text.adc_channel_pair_reset
+                0x0000000000000880       0x16 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj)
+                0x0000000000000880                adc_channel_pair_reset
+ .text.adc_stack_reset
+                0x0000000000000896       0x36 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj)
+                0x0000000000000896                adc_stack_reset
+ .text.adc_stack_register_channel
+                0x00000000000008cc       0x40 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj)
+                0x00000000000008cc                adc_stack_register_channel
+ .text.adc_stack_find_channel
+                0x000000000000090c       0x6c ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj)
+                0x000000000000090c                adc_stack_find_channel
+ .text.adc_stack_get_next
+                0x0000000000000978       0x3c ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj)
+                0x0000000000000978                adc_stack_get_next
+ .text.adc_stack_get_current
+                0x00000000000009b4       0x2c ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj)
+                0x00000000000009b4                adc_stack_get_current
+ .text.check_handle
+                0x00000000000009e0       0x66 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_write_config.constprop.0
+                0x0000000000000a46      0x124 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .text.timer_8_bit_prescaler_from_value
+                0x0000000000000b6a       0x5a ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+                0x0000000000000b6a                timer_8_bit_prescaler_from_value
+ .text.timer_8_bit_compute_matching_parameters
+                0x0000000000000bc4       0xa2 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+                0x0000000000000bc4                timer_8_bit_compute_matching_parameters
+ .text.timer_8_bit_set_handle
+                0x0000000000000c66       0x22 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+                0x0000000000000c66                timer_8_bit_set_handle
+ .text.timer_8_bit_get_handle
+                0x0000000000000c88       0x22 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+                0x0000000000000c88                timer_8_bit_get_handle
+ .text.timer_8_bit_get_default_config
+                0x0000000000000caa       0x42 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+                0x0000000000000caa                timer_8_bit_get_default_config
+ .text.timer_8_bit_start
+                0x0000000000000cec       0x34 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+                0x0000000000000cec                timer_8_bit_start
+ .text.timer_8_bit_stop
+                0x0000000000000d20       0x24 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+                0x0000000000000d20                timer_8_bit_stop
+ .text.timer_8_bit_reconfigure
+                0x0000000000000d44       0x5a ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+                0x0000000000000d44                timer_8_bit_reconfigure
+ .text.timer_8_bit_init
+                0x0000000000000d9e        0xa ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+                0x0000000000000d9e                timer_8_bit_init
+ .text.timer_8_bit_is_initialised
+                0x0000000000000da8       0x1a ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+                0x0000000000000da8                timer_8_bit_is_initialised
+ .text.check_handle
+                0x0000000000000dc2       0x74 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.check_reg_busy.constprop.0
+                0x0000000000000e36       0x12 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_write_config.constprop.0
+                0x0000000000000e48      0x132 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .text.timer_8_bit_async_prescaler_from_value
+                0x0000000000000f7a       0x40 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+                0x0000000000000f7a                timer_8_bit_async_prescaler_from_value
+ .text.timer_8_bit_async_compute_matching_parameters
+                0x0000000000000fba       0xa2 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+                0x0000000000000fba                timer_8_bit_async_compute_matching_parameters
+ .text.timer_8_bit_async_set_handle
+                0x000000000000105c       0x22 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+                0x000000000000105c                timer_8_bit_async_set_handle
+ .text.timer_8_bit_async_get_handle
+                0x000000000000107e       0x22 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+                0x000000000000107e                timer_8_bit_async_get_handle
+ .text.timer_8_bit_async_get_default_config
+                0x00000000000010a0       0x4a ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+                0x00000000000010a0                timer_8_bit_async_get_default_config
+ .text.timer_8_bit_async_is_initialised
+                0x00000000000010ea       0x1a ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+                0x00000000000010ea                timer_8_bit_async_is_initialised
+ .text.timer_8_bit_async_start
+                0x0000000000001104       0x3c ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+                0x0000000000001104                timer_8_bit_async_start
+ .text.timer_8_bit_async_stop
+                0x0000000000001140       0x2c ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+                0x0000000000001140                timer_8_bit_async_stop
+ .text.timer_8_bit_async_reconfigure
+                0x000000000000116c       0x5a ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+                0x000000000000116c                timer_8_bit_async_reconfigure
+ .text.timer_8_bit_async_init
+                0x00000000000011c6        0xa ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+                0x00000000000011c6                timer_8_bit_async_init
+ .text.check_handle
+                0x00000000000011d0       0xba ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_write_config.constprop.0
+                0x000000000000128a      0x18e ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .text.timer_16_bit_prescaler_from_value
+                0x0000000000001418       0x5a ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+                0x0000000000001418                timer_16_bit_prescaler_from_value
+ .text.timer_16_bit_compute_matching_parameters
+                0x0000000000001472       0xb4 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+                0x0000000000001472                timer_16_bit_compute_matching_parameters
+ .text.timer_16_bit_set_handle
+                0x0000000000001526       0x22 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+                0x0000000000001526                timer_16_bit_set_handle
+ .text.timer_16_bit_get_handle
+                0x0000000000001548       0x22 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+                0x0000000000001548                timer_16_bit_get_handle
+ .text.timer_16_bit_get_default_config
+                0x000000000000156a       0x66 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+                0x000000000000156a                timer_16_bit_get_default_config
+ .text.timer_16_bit_start
+                0x00000000000015d0       0x34 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+                0x00000000000015d0                timer_16_bit_start
+ .text.timer_16_bit_stop
+                0x0000000000001604       0x24 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+                0x0000000000001604                timer_16_bit_stop
+ .text.timer_16_bit_reconfigure
+                0x0000000000001628       0x5a ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+                0x0000000000001628                timer_16_bit_reconfigure
+ .text.timer_16_bit_init
+                0x0000000000001682        0xa ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+                0x0000000000001682                timer_16_bit_init
+ .text.timer_16_bit_is_initialised
+                0x000000000000168c       0x1a ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+                0x000000000000168c                timer_16_bit_is_initialised
+ .text.default_command_handler
+                0x00000000000016a6        0x4 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.default_transmission_over_callback
+                0x00000000000016aa        0x4 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.is_handle_initialised.constprop.0
+                0x00000000000016ae       0x74 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.write_config.constprop.0
+                0x0000000000001722       0xd8 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.clear_twint.constprop.0
+                0x00000000000017fa       0x10 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_get_default_config
+                0x000000000000180a       0x30 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+                0x000000000000180a                i2c_get_default_config
+ .text.i2c_set_handle
+                0x000000000000183a       0x5c ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+                0x000000000000183a                i2c_set_handle
+ .text.i2c_get_status_code
+                0x0000000000001896       0x3e ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+                0x0000000000001896                i2c_get_status_code
+ .text.i2c_master_rx_process.constprop.0
+                0x00000000000018d4      0x1b8 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.process_helper_single.constprop.0
+                0x0000000000001a8c      0x294 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.process_helper
+                0x0000000000001d20       0x10 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .text.i2c_enable
+                0x0000000000001d30       0x3c ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+                0x0000000000001d30                i2c_enable
+ .text.i2c_init
+                0x0000000000001d6c       0x5c ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+                0x0000000000001d6c                i2c_init
+ .text.i2c_get_state
+                0x0000000000001dc8       0x1a ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+                0x0000000000001dc8                i2c_get_state
+ .text.i2c_process
+                0x0000000000001de2       0x16 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+                0x0000000000001de2                i2c_process
+ .text.i2c_write
+                0x0000000000001df8       0xd2 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+                0x0000000000001df8                i2c_write
+ .text.__vector_24
+                0x0000000000001eca       0x46 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+                0x0000000000001eca                __vector_24
+ .text.timebase_init
+                0x0000000000001f10      0x39a ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+                0x0000000000001f10                timebase_init
+ .text.timebase_interrupt_callback
+                0x00000000000022aa       0x3c ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+                0x00000000000022aa                timebase_interrupt_callback
+ .text.timebase_get_tick
+                0x00000000000022e6       0x34 ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+                0x00000000000022e6                timebase_get_tick
+ .text.timebase_get_duration
+                0x000000000000231a       0x3a ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+                0x000000000000231a                timebase_get_duration
+ .text.timebase_get_duration_now
+                0x0000000000002354       0x58 ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+                0x0000000000002354                timebase_get_duration_now
+ .text.process_command_idling
+                0x00000000000023ac        0x2 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x00000000000023ac                process_command_idling
+ .text.reset_command_sequencer
+                0x00000000000023ae       0x4a ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .text.hd44780_lcd_get_default_config
+                0x00000000000023f8       0x24 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x00000000000023f8                hd44780_lcd_get_default_config
+ .text.hd44780_lcd_get_state
+                0x000000000000241c        0x6 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x000000000000241c                hd44780_lcd_get_state
+ .text.hd44780_lcd_init
+                0x0000000000002422       0xb2 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x0000000000002422                hd44780_lcd_init
+ .text.hd44780_lcd_process
+                0x00000000000024d4       0x5a ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x00000000000024d4                hd44780_lcd_process
+ .text.is_ready_to_accept_instruction
+                0x000000000000252e       0x1c ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x000000000000252e                is_ready_to_accept_instruction
+ .text.hd44780_lcd_set_display_on_off
+                0x000000000000254a       0x34 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x000000000000254a                hd44780_lcd_set_display_on_off
+ .text.hd44780_lcd_set_cursor_visible
+                0x000000000000257e       0x34 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x000000000000257e                hd44780_lcd_set_cursor_visible
+ .text.hd44780_lcd_set_blinking_cursor
+                0x00000000000025b2       0x34 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x00000000000025b2                hd44780_lcd_set_blinking_cursor
+ .text.hd44780_lcd_move_cursor_to_coord
+                0x00000000000025e6       0x5a ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x00000000000025e6                hd44780_lcd_move_cursor_to_coord
+ .text.hd44780_lcd_print
+                0x0000000000002640       0x4a ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x0000000000002640                hd44780_lcd_print
+ .text.set_backlight_flag_in_i2c_buffer
+                0x000000000000268a       0x1a ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x000000000000268a                set_backlight_flag_in_i2c_buffer
+ .text.prepare_i2c_buffer
+                0x00000000000026a4       0x28 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x00000000000026a4                prepare_i2c_buffer
+ .text.handle_function_set
+                0x00000000000026cc       0x20 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x00000000000026cc                handle_function_set
+ .text.handle_display_controls
+                0x00000000000026ec       0x1c ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x00000000000026ec                handle_display_controls
+ .text.handle_entry_mode
+                0x0000000000002708        0xc ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x0000000000002708                handle_entry_mode
+ .text.handle_end_of_internal_command
+                0x0000000000002714       0x24 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x0000000000002714                handle_end_of_internal_command
+ .text.convert_i2c_write_error
+                0x0000000000002738       0x16 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x0000000000002738                convert_i2c_write_error
+ .text.bootup_sequence_handler
+                0x000000000000274e      0x118 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x000000000000274e                bootup_sequence_handler
+ .text.write_buffer
+                0x0000000000002866       0xe8 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x0000000000002866                write_buffer
+ .text.init_4_bits_selection_handler
+                0x000000000000294e       0x40 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x000000000000294e                init_4_bits_selection_handler
+ .text.handle_byte_sending
+                0x000000000000298e       0x4e ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x000000000000298e                handle_byte_sending
+ .text.internal_command_handle_function_set
+                0x00000000000029dc       0x16 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x00000000000029dc                internal_command_handle_function_set
+ .text.internal_command_clear
+                0x00000000000029f2       0x1a ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x00000000000029f2                internal_command_clear
+ .text.internal_command_set_entry_mode
+                0x0000000000002a0c       0x16 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x0000000000002a0c                internal_command_set_entry_mode
+ .text.internal_command_handle_display_controls
+                0x0000000000002a22       0x16 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x0000000000002a22                internal_command_handle_display_controls
+ .text.internal_command_init
+                0x0000000000002a38       0x3c ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x0000000000002a38                internal_command_init
+ .text.internal_command_move_cursor_to_coord
+                0x0000000000002a74       0x38 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x0000000000002a74                internal_command_move_cursor_to_coord
+ .text.internal_command_print
+                0x0000000000002aac       0x50 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x0000000000002aac                internal_command_print
+ .text.timer_generic_compute_parameters
+                0x0000000000002afc      0x1e6 ../AvrAsyncCore/Drivers/Timers/Timer_generic/libtimer_generic_driver.a(timer_generic.c.obj)
+                0x0000000000002afc                timer_generic_compute_parameters
+ .text.libgcc.div
+                0x0000000000002ce2       0x18 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodqi4.o)
+                0x0000000000002ce2                __udivmodqi4
+ .text.libgcc.div
+                0x0000000000002cfa       0x44 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000002cfa                __udivmodsi4
+ .text.libgcc   0x0000000000002d3e        0xc /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_tablejump2.o)
+                0x0000000000002d3e                __tablejump2__
+ .text.avr-libc
+                0x0000000000002d4a        0xe /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(memset.o)
+                0x0000000000002d4a                memset
+ .text.avr-libc
+                0x0000000000002d58       0x16 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+                0x0000000000002d58                strnlen
+ .text.avr-libc
+                0x0000000000002d6e       0x14 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+                0x0000000000002d6e                __itoa_ncheck
+ .text.avr-libc
+                0x0000000000002d82       0x32 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+                0x0000000000002d82                __utoa_ncheck
+                0x0000000000002d84                __utoa_common
+ .text.avr-libc
+                0x0000000000002db4       0x20 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/libc.a(strrev.o)
+                0x0000000000002db4                strrev
+                0x0000000000002dd4                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000002dd4        0x0 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_exit.o)
+                0x0000000000002dd4                exit
+                0x0000000000002dd4                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000002dd4        0x4 /usr/lib/gcc/avr/11.2.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x0000000000002dd8                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ .jumptables.gcc.main
+                0x0000000000002dd8       0x10 CMakeFiles/firmware.dir/src/main.c.obj
+ .jumptables.gcc.process_helper_single.constprop.0
+                0x0000000000002de8       0x10 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .jumptables.gcc.internal_command_init
+                0x0000000000002df8       0x10 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+                0x0000000000002e08                _etext = .
+
+.data           0x0000000000800100       0x7a address de chargement 0x0000000000002e08
+                0x0000000000800100                PROVIDE (__data_start = .)
+ *(.data)
+ *(.data*)
+ .data.msg2.3   0x0000000000800100       0x1e CMakeFiles/firmware.dir/src/main.c.obj
+ .data.msg1.4   0x000000000080011e       0x1e CMakeFiles/firmware.dir/src/main.c.obj
+ .data.command_sequencer
+                0x000000000080013c        0xe ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .data.last_error
+                0x000000000080014a        0x1 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.mux_table
+                0x000000000080014b        0x5 CMakeFiles/firmware.dir/src/main.c.obj
+ .rodata.timer_8_bit_prescaler_table
+                0x0000000000800150        0xa ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+                0x0000000000800150                timer_8_bit_prescaler_table
+ .rodata.timer_8_bit_async_prescaler_table
+                0x000000000080015a        0xe ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+                0x000000000080015a                timer_8_bit_async_prescaler_table
+ .rodata.timer_16_bit_prescaler_table
+                0x0000000000800168        0xa ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+                0x0000000000800168                timer_16_bit_prescaler_table
+ .rodata.CSWTCH.94
+                0x0000000000800172        0x8 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ *(.gnu.linkonce.r*)
+                0x000000000080017a                . = ALIGN (0x2)
+                0x000000000080017a                _edata = .
+                0x000000000080017a                PROVIDE (__data_end = .)
+
+.bss            0x000000000080017a       0xc5
+                0x000000000080017a                PROVIDE (__bss_start = .)
+ *(.bss)
+ *(.bss*)
+ .bss.iteration_string.0
+                0x000000000080017a        0x5 CMakeFiles/firmware.dir/src/main.c.obj
+ .bss.iterations.1
+                0x000000000080017f        0x1 CMakeFiles/firmware.dir/src/main.c.obj
+ .bss.move_cursor.2
+                0x0000000000800180        0x1 CMakeFiles/firmware.dir/src/main.c.obj
+ .bss.state_count.5
+                0x0000000000800181        0x1 CMakeFiles/firmware.dir/src/main.c.obj
+ .bss.idx.6     0x0000000000800182        0x1 CMakeFiles/firmware.dir/src/main.c.obj
+ .bss.pair.0    0x0000000000800183        0x2 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .bss.registered_channels
+                0x0000000000800185       0x23 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .bss.internal_configuration
+                0x00000000008001a8       0x13 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .bss.internal_config
+                0x00000000008001bb       0x10 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .bss.internal_config
+                0x00000000008001cb       0x12 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .bss.internal_config
+                0x00000000008001dd       0x1c ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .bss.retries.0
+                0x00000000008001f9        0x1 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .bss.retries.1
+                0x00000000008001fa        0x1 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .bss.master_buffer
+                0x00000000008001fb        0x8 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .bss.internal_configuration
+                0x0000000000800203       0x13 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .bss.timebase_internal_config
+                0x0000000000800216       0x1b ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+                0x0000000000800216                timebase_internal_config
+ .bss.error_count
+                0x0000000000800231        0x1 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .bss.internal_configuration
+                0x0000000000800232        0xa ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .bss.internal_state
+                0x000000000080023c        0x1 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .bss.data_byte
+                0x000000000080023d        0x1 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .bss.i2c_buffer
+                0x000000000080023e        0x1 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ *(COMMON)
+                0x000000000080023f                PROVIDE (__bss_end = .)
+                0x0000000000002e08                __data_load_start = LOADADDR (.data)
+                0x0000000000002e82                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x000000000080023f        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x000000000080023f                _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x12
+ *(.comment)
+ .comment       0x0000000000000000       0x12 CMakeFiles/firmware.dir/src/main.c.obj
+                                         0x13 (taille avant relaxe)
+ .comment       0x0000000000000012       0x13 CMakeFiles/firmware.dir/src/driver_setup.c.obj
+ .comment       0x0000000000000012       0x13 CMakeFiles/firmware.dir/src/module_setup.c.obj
+ .comment       0x0000000000000012       0x13 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc.c.obj)
+ .comment       0x0000000000000012       0x13 ../AvrAsyncCore/Drivers/Adc/libadc_driver.a(adc_stack.c.obj)
+ .comment       0x0000000000000012       0x13 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit/libtimer_8_bit_driver.a(timer_8_bit.c.obj)
+ .comment       0x0000000000000012       0x13 ../AvrAsyncCore/Drivers/Timers/Timer_8_bit_async/libtimer_8_bit_async_driver.a(timer_8_bit_async.c.obj)
+ .comment       0x0000000000000012       0x13 ../AvrAsyncCore/Drivers/Timers/Timer_16_bit/libtimer_16_bit_driver.a(timer_16_bit.c.obj)
+ .comment       0x0000000000000012       0x13 ../AvrAsyncCore/Drivers/I2c/libi2c_driver.a(i2c.c.obj)
+ .comment       0x0000000000000012       0x13 ../AvrAsyncCore/Modules/Timebase/libtimebase_module.a(timebase.c.obj)
+ .comment       0x0000000000000012       0x13 ../AvrAsyncCore/Drivers/Lcd_screen/libHD44780_lcd_driver.a(HD44780_lcd.c.obj)
+ .comment       0x0000000000000012       0x13 ../AvrAsyncCore/Drivers/Timers/Timer_generic/libtimer_generic_driver.a(timer_generic.c.obj)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x5f4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f4 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_abbrev   0x0000000000000000      0x5a2
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_line     0x0000000000000000       0x1d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1d /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x208
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x208 /usr/lib/gcc/avr/11.2.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+OUTPUT(firmware elf32-avr)
+LOAD linker stubs

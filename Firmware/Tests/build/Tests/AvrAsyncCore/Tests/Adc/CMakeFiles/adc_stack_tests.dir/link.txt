@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/adc_stack_tests.dir/adc_stack_tests.cpp.o -o ../../../../bin/Adc/adc_stack_tests  libadc_stack.a /usr/lib/libgtest.so.1.11.0 -lpthread -lpthread 

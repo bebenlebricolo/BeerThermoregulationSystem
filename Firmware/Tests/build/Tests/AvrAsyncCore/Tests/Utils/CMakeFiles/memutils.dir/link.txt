@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmemutils.a CMakeFiles/memutils.dir/src/memutils.c.o
+/usr/bin/ranlib libmemutils.a

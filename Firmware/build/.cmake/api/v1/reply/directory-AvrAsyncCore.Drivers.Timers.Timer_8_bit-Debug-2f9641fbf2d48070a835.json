@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "AvrAsyncCore/Drivers/Timers/Timer_8_bit",
+		"source" : "AvrAsyncCore/Drivers/Timers/Timer_8_bit"
+	}
+}

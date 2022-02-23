@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qcs libHD44780_lcd_driver.a CMakeFiles/HD44780_lcd_driver.dir/src/HD44780_lcd.c.obj
+true

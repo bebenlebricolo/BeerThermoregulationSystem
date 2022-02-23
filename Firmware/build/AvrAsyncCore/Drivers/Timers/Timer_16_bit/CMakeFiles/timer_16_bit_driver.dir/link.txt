@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qcs libtimer_16_bit_driver.a CMakeFiles/timer_16_bit_driver.dir/src/timer_16_bit.c.obj
+true

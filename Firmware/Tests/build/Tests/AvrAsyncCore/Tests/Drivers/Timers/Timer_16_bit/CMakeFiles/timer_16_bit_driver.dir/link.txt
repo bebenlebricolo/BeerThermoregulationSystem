@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtimer_16_bit_driver.a CMakeFiles/timer_16_bit_driver.dir/home/groben/Documents/Repos/LabBenchPowerSupply/Firmware/AvrAsyncCore/Drivers/Timers/Timer_16_bit/src/timer_16_bit.c.o
+/usr/bin/ranlib libtimer_16_bit_driver.a

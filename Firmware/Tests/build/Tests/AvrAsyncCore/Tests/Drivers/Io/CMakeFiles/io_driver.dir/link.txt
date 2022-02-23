@@ -1,0 +1,2 @@
+/usr/bin/ar qc libio_driver.a CMakeFiles/io_driver.dir/home/groben/Documents/Repos/LabBenchPowerSupply/Firmware/AvrAsyncCore/Drivers/Io/src/io.c.o CMakeFiles/io_driver.dir/Stub/config.c.o
+/usr/bin/ranlib libio_driver.a

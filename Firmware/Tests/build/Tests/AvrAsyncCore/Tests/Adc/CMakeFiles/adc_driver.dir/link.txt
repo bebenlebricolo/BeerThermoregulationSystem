@@ -1,0 +1,2 @@
+/usr/bin/ar qc libadc_driver.a CMakeFiles/adc_driver.dir/home/groben/Documents/Repos/LabBenchPowerSupply/Firmware/AvrAsyncCore/Drivers/Adc/src/adc.c.o
+/usr/bin/ranlib libadc_driver.a

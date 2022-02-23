@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtimebase_module.a CMakeFiles/timebase_module.dir/home/groben/Documents/Repos/LabBenchPowerSupply/Firmware/AvrAsyncCore/Modules/Timebase/src/timebase.c.o
+/usr/bin/ranlib libtimebase_module.a
